@@ -148,7 +148,6 @@ Mixins should be declared at the top of the rulset and the final mixin should ha
 ####Good
 ```less 
 .icon {
-
 	.animation(spin 0.5s linear);
 	.transition(0.3s all linear);
 
