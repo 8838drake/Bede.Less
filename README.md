@@ -36,7 +36,7 @@ Units are not allowed on zero values
 
 #####Good 
 ```less
-margin: 0 10px 0;
+margin: 0 10px 5px;
 ```
 
 #####Bad
@@ -61,6 +61,19 @@ All properties should precede a semicolon.
 	margin: 10px;
 	color: #000
 }
+```
+
+###Quotes
+Single quotations should be used instead of double quotations.
+
+####Good
+```less
+content: '';
+```
+
+####Bad
+```less
+content: "";
 ```
 
 ###Nesting
@@ -128,7 +141,7 @@ color: fade(#000, 20%);
 
 #####Bad
 ```less
-color: rgba(0, 0, 0, 20%);
+color: rgba(0, 0, 0, 0.2);
 ```
 
 
