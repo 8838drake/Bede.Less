@@ -18,7 +18,7 @@
 **[Media Queries](#media-query-usage)**
 
 ##File Naming
-File Names should be camelcased and, if necessary, be preceded by platform and file type which `zshould be separated with a hyphen.
+File Names should be camelcased and, if necessary, be preceded by platform and file type which `should be separated with a hyphen.
 
 #####Good
 ```
@@ -95,7 +95,7 @@ content: "";
 ```
 
 #####Why?
-Although there is no benefit to using either quotation single quotations should be used in LESS and Javascript leaving double quotations for HTML files.
+Although there is no benefit to using either quotation apart from consistency, single quotations should be used in LESS and Javascript leaving double quotations for HTML files.
 
 ###Nesting
 Nested selectors, if following CSS properties, should be separated with a new line, otherwise should immediately follow the previous selector.
@@ -242,7 +242,7 @@ Class Names should always be hyphenated and IDs should always be camelcased.
 ```
 
 ##JS Prefixes
-Classes in HTML files that are used in javascript should be prefixed with `js-`.
+Classes in HTML files that are used in Javascript should be prefixed with `js-`.
 
 #####Good
 ```html
@@ -304,14 +304,14 @@ IDs are too specific and rigid; IDs should be reserved for Javascript and semant
 Selectors should be nested a maximum of 4 levels deep.
 
 #####Why?
-If two selectors are applied to the same element, the one with the highest specificity will win, regardless of it’s position in the stylesheet; because of this we should only be specific when absolutely necessary in order to avoid writing messy and unnecessary code; this is another reason why we do not use IDs in LESS, as they have a higher specificty rating [[2]](http://cssspecificity.com/). 
+If two selectors are applied to the same element, the one with the highest specificity will win, regardless of it’s position in the stylesheet; because of this we should only be specific when absolutely necessary in order to avoid writing messy and unnecessary code; this is another reason why we do not use IDs in LESS, as they have a higher specificity rating [[2]](http://cssspecificity.com/). 
 
-When possible and viable, always use the lowest specifity possible.
+When possible and viable, always use the lowest specificity possible.
 
 ##Mixins
 
 ###Mixin Presentation
-Mixins should be declared at the top of the rulset and the final mixin should have a break line before the first css property is declared.
+Mixins should be declared at the top of the ruleset and the final mixin should have a break line before the first css property is declared.
 
 #####Good
 ```less 
@@ -391,4 +391,4 @@ When possible media queries should be nested within the desired selector.
 ```
 
 #####Why?
-We should be able to see if any media queries are used by looking at the relavant selector instead of looking at different parts of the file or even different files; this improves readability and knowledge of what code is attached to a selector.
+We should be able to see if any media queries are used by looking at the relevant selector instead of looking at different parts of the file or even different files; this improves readability and knowledge of what code is attached to a selector.
