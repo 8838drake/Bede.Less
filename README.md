@@ -99,8 +99,7 @@ content: "";
 Although there is no benefit to using either quotation apart from consistency, single quotations should be used in LESS and Javascript leaving double quotations for HTML files.
 
 ###Nesting
-Nested selectors, if following CSS properties, should be separated with a new line, otherwise should immediately follow the previous selector.  
-*Note, you should only nest selectors if you need to overwrite specificity or give an element a high specificity rating.*
+Nested selectors, if following CSS properties, should be separated with a new line, otherwise should immediately follow the previous selector.
 
 #####Good
 ```less
@@ -335,7 +334,8 @@ IDs should not be used in LESS.
 IDs are too specific and rigid; IDs should be reserved for Javascript and semantic use only. Classes can do everything IDs can do and can be utilised multiple times on a page. Although IDs are slightly faster in terms of performance, they are not fast enough to be beneficial and are actually worse than classes for performance when used to namespace elements [[1]](http://oli.jp/2011/ids/). Using an ID can also provide issues later on by creating overly specific code.
 
 ##Specificity
-Selectors should be nested a maximum of 4 levels deep.
+Selectors should be nested a maximum of 4 levels deep.  
+*Note, you should only nest selectors if you need to overwrite specificity or give an element a high specificity rating.*
 
 #####Why?
 If two selectors are applied to the same element, the one with the highest specificity will win, regardless of it’s position in the stylesheet; because of this we should only be specific when absolutely necessary in order to avoid writing messy and unnecessary code; this is another reason why we do not use IDs in LESS, as they have a higher specificity rating [[2]](http://cssspecificity.com/).
