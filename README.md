@@ -176,7 +176,7 @@ background: rgba(0, 0, 0, 0.1);
 Hex values and LESS variables should be used to create transparent colours to create consistency and improve readability.
 
 ##Pseudo Elements
-Pseudo elements such as `before`, `after` and `nth-child` should be separated with two colons and pseudo states should be separated with a single colon.
+Pseudo elements such as `before` and `after` as well as CSS3 text styles like `first-letter` should be separated with two colons and pseudo states and `nth-child` elements should be separated with a single colon.
 
 #####Good
 ```less
